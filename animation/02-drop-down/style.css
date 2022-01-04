@@ -30,8 +30,19 @@ ul {
   width: 160px;
   list-style: none;
   text-align: center;
+  overflow: hidden;
+  max-height: 0;
 }
 
 li {
   padding: 16px;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+.dropdown-menu:hover ul{
+  max-height: 500px;
+  
 }
